@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <title>Junior</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <script src="script/script.js" defer></script>
+    </head>
+    <header>
+        <div class="contenedor__menu">
+            <p class="logo__navegador" id="logo">mater</p>
+                <div class="contenedor__navegador" id="contenedorNav"> 
+                    <button type="button" class="bars__botonCerrar">
+                        <i class="fa-solid fa-xmark bars__iconoCerrar" id="botonCerrar"></i>
+                    </button>
+                    <nav class="navegador" id="nav"> 
+
+                        <div class="bars__menu" id="contenedorLista">
+                            <ul class="bars__menuLista" id="lista">
+                                <li class="menuLista__opcion" id="elementoLista1">Collection</li>
+                                    <ul class="lista__menuOpcion" id="lista2">
+                                        <li class="opcion" id="opcionLista1">Fumiture</li>
+                                        <li class="opcion" id="opcionLista2">Lighting</li>
+                                        <li class="opcion" id="opcionLista3">Accessories</li>
+                                    </ul>
+                                <li class="menuLista__opcion" id="elementoLista2">Design</li>
+                                <li class="menuLista__opcion" id="elementoLista3">Craftmanship</li>
+                                <li class="menuLista__opcion" id="elementoLista4">Ethics</li> 
+                            </ul>
+                        </div>
+                        <div class="bars__informacion">
+                            <ul class="informacionLista">
+                                <li class="informacionLista__opcion">About</li>
+                                <li class="informacionLista__opcion">Contact</li>
+                                <li class="informacionLista__opcion">Dealers</li>
+                                <li class="informacionLista__opcion">News</li>
+                                <li class="informacionLista__opcion">Care</li>
+                                <li class="informacionLista__opcion">Press</li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="bars__sofa" id="sillon">
+                        <img src="img/sofa_blanco.png" alt="Sillón blanco">
+                    </div>
+                </div>
+            <button type="button" class="bars__botonAbrir" >
+                <i class="fa-solid fa-bars-staggered bars__iconoAbrir" id="botonAbrir"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="seccion__productos">
+            <section class="seccion__producto--silla" id="produtoSilla">
+                <div class="producto" id="descripcionSilla">
+
+                        <span class="producto__creador parallax1">Michele W.Dreeben</span>
+                        <h1 class="producto__nombre parallax1">Shell Dining Chair</h1>
+                        <p class="producto__texto parallax1">Lorem ipsum solor sit amet, consectetur adipsicing elit.
+                            Este aperiam quos totam blanditiis sapience, quasi non
+                            excepturi architecto dolorem?
+                        </p>
+                    <button type="button" class="boton__detalles">Product Details</button>
+                </div>
+                <div class="imagen__producto parallax1" id="imgSilla">
+                    <img src="img/silla_negra.png" alt="Silla Negra" class="producto__img" id="silla">
+                </div>
+            </section>
+            <section class="seccion__producto--mesa" id="produtoMesa">
+                <div class="producto" id="descripcionMesa">
+                    <span class="producto__creador parallax2">Jeaper K.Thomas</span>
+                    <h1 class="producto__nombre parallax2">Dunes Anthrazite Black</h1>
+                    <p class="producto__texto parallax2">Lorem ipsum solor sit amet, consectetur adipsicing elit.
+                        Este aperiam quos totam blanditiis sapience, quasi non
+                        excepturi architecto dolorem?
+                    </p>
+                    <button type="button" class="boton__detalles">Product Details</button>
+                </div>
+                <div class="imagen__producto parallax2" id="imgMesa">
+                    <img src="img/mesa_negra.png" alt="Silla Negra" class="producto__img" id="mesa">
+                </div>
+            </section> 
+        </div>
+    </main>
+    <footer>
+        <section class="botones">
+           
+            <div class="botones__parallax">
+                
+                <button type="button" class="botonParallax" id='botonSilla'>01<br> Shell Dining Chair</button>
+                
+                <button type="button" class="botonParallax" id="botonMesa">02<br> Dunes Anthrazite Black</button>
+            </div>
+        </section>
+    </footer>
+</html>
